@@ -1,0 +1,40 @@
+/* 
+	This is the 2nd test.
+*/
+class test2 extends test1
+{
+	boolean flag = true, flag2 = false;
+}
+
+int main(void)
+{
+	int abc = 1, cdf = 0x20, ghi = 12.3E-12, jkl = 12.E+144;
+	if(test2.flag != false)
+	{
+		println("true");
+	}
+	else if(test2.flag == false)
+	{
+		boolean input;
+		input = readln("Enter new value of flag");
+	}
+	else if((test2.flag == false && test2.flag == true) 
+		|| (test2.flag == true && test2.flag == false))
+	{
+		// this will never happen
+		println("This will never happen");
+	}
+
+	if(2 > 1)
+	{
+		println("2 > 1");
+	}
+	if(1 >= 1)
+	{
+		println("1 >= 1");
+	}
+	if(1 == 1)
+	{
+		println("1==1");
+	}
+}
